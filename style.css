@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #E5E5E5;
+  color: #101010;
+}
+
+.image-container {
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  filter: blur(2px);
+}
+
+.image-container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: .3;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 0;
+  width: 100%;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+}
+
+.wizard-card {
+  min-height: 410px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.popup {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  width: 74%;
+}
+
+.overlay-header {
+  background: #F9F9F9;
+  border-bottom: 1px solid #cdcecf;
+  position: relative;
+  padding: 15px 35px 15px 20px;
+  width: 100%;
+  float: left;
+}
+
+.overlay-header h4 {
+  font-size: 17px;
+  color: #666;
+  margin-bottom: 0px;
+}
+
+.overlay-header span {
+  float: right;
+}
+
+.detial-sub {
+  margin: auto;
+}
+
+/* .detial-section{
+  border-top: 1px solid #cdcecf;
+} */
+
+.head-icon {
+  background: #F9F9F9;
+  padding: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .78571em;
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.detial-sub ul {
+  display: table;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.detial-sub ul li {
+  display: table-cell;
+  padding: 0px 15px 0px 15px;
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.frist-box {
+  padding-left: 0;
+  border-right: 1px solid #cdcecf;
+  width: 20%;
+  list-style: 18px;
+}
+
+.frist-box i {
+  font-size: 30px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.flight-id {
+  display: inline-block;
+  font-size: .85714em;
+  /* margin-left: 15px; */
+}
+
+.icon-logo {
+  background-color: #8585b7;
+  color: #3e3e3e;
+}
+
+.second-box strong {
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+.third-box {
+  text-align: center;
+  font-size: 12px;
+}
+
+.third-box i {
+  font-size: 13px;
+}
+
+.forth-box, .second-box {
+  width: 16%;
+}
+
+.frist-box span, .forth-box span, .second-box span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.forth-box strong {
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+.pipe {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.air-journey {
+  height: 1px;
+  background: #bebebe;
+  margin: 10px auto 7px;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.air-journey span {
+  width: 8px;
+  height: 8px;
+  background: #bebebe;
+  position: relative;
+  top: -3px;
+  border-radius: 50%;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.air-journey-plane {
+  position: absolute;
+  left: 59%;
+  transform: translateX(-50%);
+  padding: 0 5px;
+  background: #fff;
+}
+
+.block {
+  display: block;
+  margin: 0px;
+  auto;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.block p:before {
+  border-bottom: 1px solid #cdcecf;
+  content: '';
+  display: block;
+  position: relative;
+  top: 33px;
+  width: 80%;
+  left: 0;
+  margin: auto;
+}
