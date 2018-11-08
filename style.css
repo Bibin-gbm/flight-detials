@@ -71,6 +71,16 @@ body {
   color: #666;
   margin-bottom: 0px;
 }
+.overlay-header h4 a {
+  text-decoration: none;
+  color: #101010;
+}
+h4 a:active {
+color: #838383;
+}
+.active {
+    color: #4e4e72 !important;
+}
 
 .overlay-header span {
   float: right;
@@ -224,7 +234,7 @@ body {
       border-right: 2px solid #dee2e6 !important;
 }
 .tr-border th :first-child{
-font-size: 1.14286em; 
+font-size: 1.14286em;
 }
 .sec-01 table th,.sec-01 table td,
 .sec-02 table th,.sec-02 table td{
