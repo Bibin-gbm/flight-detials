@@ -219,3 +219,14 @@ body {
   left: 0;
   margin: auto;
 }
+.tr-border{
+      border-left: 2px solid #dee2e6;
+      border-right: 2px solid #dee2e6 !important;
+}
+.tr-border th :first-child{
+font-size: 1.14286em; 
+}
+.sec-01 table th,.sec-01 table td,
+.sec-02 table th,.sec-02 table td{
+  padding: 7px 5px !important;
+}
